@@ -5,6 +5,7 @@ module.exports ={
         const {page = 1} = request.query;
 
         const [count] = await connection('incidents').count();
+        const ong_id =  request.headers.authorization;
 
         const incidents = await connection('incidents')
             .join('ongs','ong_id','=','incidents.ong_id')
