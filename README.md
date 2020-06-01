@@ -5,10 +5,10 @@ A Aplicação consiste numa plataforma onde Ongs locais podem solicitar ajuda de
 específicos que podem ser definidos numa plataforma Web para controle das Ongs e acessados via Aplicativo Mobile pelos
 voluntários que desejam ajudar.
 
-# Tecnologias utilizadas
+Tecnologias utilizadas
 # Nodejs
   Todo o backend da aplicação foi feito com o framework nodejs
 # Reactjs
   A parte Web da aplicação foi desenvolvida em react
-#React Native
+# React Native
   O aplicativo Mobile foi desenvolvido com React Native
